@@ -127,3 +127,5 @@ footer.site img{height:44px;width:auto}
   .howto{grid-template-columns:1fr}
 }
 @media (max-width:420px){.form-grid{grid-template-columns:1fr}}
+#f_pickup{color-scheme:dark;cursor:pointer}
+#f_pickup::-webkit-calendar-picker-indicator{cursor:pointer;opacity:1}

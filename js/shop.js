@@ -536,6 +536,12 @@ $("scrim").addEventListener("click", closeCart);
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCart(); });
 
 $("f_pickup").min = todayIso();
+$("f_pickup").addEventListener("click", (e) => { try { e.target.showPicker(); } catch (err) { e.target.focus(); } });
+$("f_pickup").addEventListener("keydown", (e) => {
+  if (e.key === "Tab" || e.key === "Escape") return;
+  e.preventDefault();
+  if (e.key === "Enter" || e.key === " ") { try { e.target.showPicker(); } catch (err) { e.target.focus(); } }
+});
 document.querySelectorAll("[data-deadline]").forEach((e) => { e.textContent = DEADLINE_TEXT; });
 document.querySelectorAll("[data-code]").forEach((e) => { e.textContent = PROMO_CODE; });
 document.querySelectorAll("[data-pct]").forEach((e) => { e.textContent = `${PCT}%`; });

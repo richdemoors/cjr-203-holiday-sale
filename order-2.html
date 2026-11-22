@@ -19,6 +19,12 @@
 .promo .lbl{font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--gold)}
 .promo .code{font-weight:900;font-size:24px;letter-spacing:.18em;padding:4px 14px 4px 18px;border:2px dashed var(--gold);border-radius:4px;color:#fff;user-select:all}
 .promo .txt{color:var(--muted);font-size:14px;max-width:420px}
+.clockbar{display:flex;justify-content:center;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 16px;border-top:1px solid #17171a;border-bottom:1px solid #17171a;background:#070707}
+.clockbar .lbl{font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+.cells{display:flex;align-items:baseline;gap:6px}
+.cells b{font-weight:800;font-size:26px;min-width:44px;text-align:center;border:1px solid var(--gold);color:#fff;border-radius:4px;padding:2px 6px}
+.cells i{font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-right:8px}
+@media (max-width:820px){.cells b{font-size:20px;min-width:34px}.cells i{margin-right:4px}}
 .rule{height:2px;width:120px;background:linear-gradient(90deg,var(--gold),transparent);border:0;margin:14px 0}
 .price .off{background:transparent;border:1px solid var(--gold);color:var(--gold);border-radius:3px}
 .scene{display:block;width:100%;height:100%;object-fit:cover;object-position:left center}
@@ -84,10 +90,12 @@
 <main id="top">
 <div class="hero"><img src="img/order-wreath-hero.webp" srcset="img/order-wreath-hero-600.webp 600w, img/order-wreath-hero.webp 1200w" sizes="(max-width:640px) 100vw, 640px" width="1200" height="1490" alt="203 Hockey Shop Black Friday Sale. Order by December 25. 30% off everything: sticks, CJR pants, helmets and gloves. Pick up at the 203 Hockey Shop, Chelsea Piers Connecticut." fetchpriority="high"></div>
 <div class="promo"><span class="lbl">Discount code</span><b class="code" data-code>CJRBF30</b><span class="txt"><span data-pct>30%</span> off sticks, CJR pants, helmets and gloves. It is already taken off every price below.</span></div>
+<div class="clockbar"><span class="ribbon">Order by December 25</span><span class="lbl">Orders close in</span>
+  <div id="cells" class="cells"><b id="cdD">00</b><i>days</i><b id="cdH">00</b><i>hrs</i><b id="cdM">00</b><i>min</i><b id="cdS">00</b><i>sec</i></div>
+  <span id="saleOn" class="hidden lbl">Orders are closed</span></div>
 <section class="intro">
   <span class="script">Holiday Gear Sale</span>
   <h2>30% off for CJR families</h2>
-  <span class="ribbon">Order by December 25</span>
   <p>Order online, then pick up at the 203 Hockey Shop at Chelsea Piers Connecticut.</p>
   <nav class="cats" aria-label="Jump to"><a href="#c-pants">CJR Pants</a><a href="#c-helmets">Helmets</a><a href="#c-gloves">Gloves</a><a href="#c-sticks">Sticks</a><a href="#c-gifts">Bottles &amp; Mugs</a></nav>
 </section>
