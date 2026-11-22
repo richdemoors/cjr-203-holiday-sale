@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Sale | 203 Hockey Shop x CJR</title>
+<meta name="description" content="Black Friday at the 203 Hockey Shop: 30% off sticks, CJR pants, helmets and gloves for CT Junior Rangers families with code CJRBF30. Order by Friday, December 25.">
+<link rel="preload" as="image" href="img/order-wreath-hero.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/order-base.css">
+<style>
+:root{--bg:#000;--panel:#0d0d0e;--line:#26262a;--text:#fff;--muted:#b9b6b1;--accent:#b3202a;--accent2:#d9b44a;--gold:#d9b44a;--display:Poppins,system-ui,sans-serif;--body:Poppins,system-ui,sans-serif;--btn-radius:6px;--input:#0b0b0c;--bar:#000;--hero-bg:#000;--price-size:30px}
+.script{font-family:Yellowtail,cursive;color:#d8343e;font-weight:400;line-height:1}
+.ribbon{display:inline-block;background:var(--accent);color:#fff;font-weight:700;font-size:12px;letter-spacing:.22em;text-transform:uppercase;padding:8px 30px;clip-path:polygon(0 0,100% 0,95% 50%,100% 100%,0 100%,5% 50%)}
+.promo{display:flex;justify-content:center;align-items:center;gap:10px 16px;flex-wrap:wrap;padding:16px;background:#070707;border-top:1px solid #17171a;text-align:center}
+.promo .lbl{font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--gold)}
+.promo .code{font-weight:900;font-size:24px;letter-spacing:.18em;padding:4px 14px 4px 18px;border:2px dashed var(--gold);border-radius:4px;color:#fff;user-select:all}
+.promo .txt{color:var(--muted);font-size:14px;max-width:420px}
+.rule{height:2px;width:120px;background:linear-gradient(90deg,var(--gold),transparent);border:0;margin:14px 0}
+.price .off{background:transparent;border:1px solid var(--gold);color:var(--gold);border-radius:3px}
+.scene{display:block;width:100%;height:100%;object-fit:cover;object-position:left center}
+.sec-title{text-align:center;margin:64px 0 26px}
+.sec-title .script{font-size:clamp(40px,6vw,60px);display:block}
+.sec-title b{display:block;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:clamp(18px,2.6vw,24px);margin-top:4px}
+.finder{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px}
+.finder .desc{margin:0 0 12px;color:var(--muted)}
+.gifts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:980px;margin:22px auto 0}
+.gift{background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:grid;grid-template-columns:44% minmax(0,1fr);scroll-margin-top:80px}
+.gift .pic{background:#f3f1ec;position:relative;min-height:300px}
+.gift .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:12px}
+.gift .txt{padding:20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.gift .script{font-size:26px}
+.gift h3{margin:0;font-weight:800;font-size:20px;text-transform:uppercase;letter-spacing:.06em}
+.gift .desc{margin:0;color:var(--muted);font-size:13px}
+.gift .opts{grid-template-columns:minmax(0,1fr)}
+.gift .addbtn{margin-top:auto}
+.bigban{position:relative;background:#000;border-radius:10px;overflow:hidden;aspect-ratio:1568/670;border:1px solid #17171a}
+.bigban .copy{position:absolute;top:0;bottom:0;right:0;width:46%;display:flex;flex-direction:column;justify-content:center;padding:0 4% 0 0}
+.bigban .copy .script{font-size:clamp(34px,4.4vw,58px)}
+.bigban .copy h2{margin:2px 0 0;font-weight:900;font-size:clamp(28px,4vw,54px);line-height:1;text-transform:uppercase;letter-spacing:.02em}
+.bigban .copy p{margin:0;color:var(--muted);font-size:15px;max-width:420px}
+@media (max-width:820px){
+  .gifts{grid-template-columns:minmax(0,1fr)}
+  .bigban{aspect-ratio:auto}
+  .bigban .scene{aspect-ratio:4/3;height:auto}
+  .bigban .copy{position:static;width:auto;padding:18px 18px 24px}
+}
+@media (max-width:480px){.gift{grid-template-columns:minmax(0,1fr)}.gift .pic{min-height:260px}}
+
+.clockbar{display:flex;justify-content:center;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 16px;border-top:1px solid #17171a;border-bottom:1px solid #17171a;background:#070707}
+.clockbar .lbl{font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+.cells{display:flex;align-items:baseline;gap:6px}
+.cells b{font-weight:800;font-size:26px;min-width:44px;text-align:center;border:1px solid var(--gold);color:#fff;border-radius:4px;padding:2px 6px}
+.cells i{font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-right:8px}
+.stack{display:flex;flex-direction:column;gap:26px;margin-top:40px}
+.bn{background:#000;border:1px solid #17171a;border-radius:10px;overflow:hidden;scroll-margin-top:72px}
+.bn .top{position:relative;aspect-ratio:1568/670}
+.bn .copy{position:absolute;top:0;bottom:0;right:0;width:46%;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-right:4%}
+.bn .copy .script{font-size:clamp(34px,4.4vw,58px)}
+.bn .copy h3{margin:2px 0 0;font-weight:900;font-size:clamp(28px,4vw,54px);line-height:1;text-transform:uppercase;letter-spacing:.02em}
+.bn .copy .big{font-weight:900;font-size:clamp(26px,3.2vw,40px);letter-spacing:.02em;margin:0 0 6px}
+.bn .copy .big span{color:var(--gold)}
+.bn .copy p{margin:0 0 14px;color:var(--muted);font-size:14px;max-width:400px}
+.bn .copy .price{margin-bottom:16px}
+.bn .shop{background:var(--accent);color:#fff;border:0;border-radius:6px;font-weight:800;font-size:15px;letter-spacing:.16em;text-transform:uppercase;padding:14px 26px;cursor:pointer;display:inline-flex;gap:12px;align-items:center}
+.bn .shop:hover{filter:brightness(1.12)}
+.bn .shop::after{content:"";width:8px;height:8px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg);margin-top:-4px;transition:transform .2s}
+.bn.open .shop::after{transform:rotate(-135deg);margin-top:4px}
+.bn .order{display:none;border-top:1px solid #1d1d21;background:var(--panel);padding:22px 4% 26px}
+.bn.open .order{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,320px);gap:14px 24px;align-items:end}
+.bn .order .opts{margin:0}
+.bn .order .err{grid-column:1/-1}
+@media (max-width:820px){
+  .bn .top{aspect-ratio:auto}
+  .bn .top .scene{aspect-ratio:4/3;height:auto}
+  .bn .copy{position:static;width:auto;padding:18px 18px 22px}
+  .bn.open .order{grid-template-columns:minmax(0,1fr);padding:18px}
+  .cells b{font-size:20px;min-width:34px}
+  .cells i{margin-right:4px}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="203 Hockey Shop"><img src="img/logo-203-hockey-shop.png" alt="203 Hockey Shop" width="299" height="142"></a>
+    <nav aria-label="Sale sections"><a href="#c-pants">CJR Pants</a><a href="#c-helmets">Helmets</a><a href="#c-gloves">Gloves</a><a href="#c-sticks">Sticks</a><a href="#c-gifts">Gifts</a></nav>
+    <button class="cartbtn" id="openCart" type="button"><span class="label">Cart</span><span class="count" id="cartCount">0</span></button>
+  </div>
+</header>
+<main id="top">
+<div class="hero"><img src="img/order-wreath-hero.webp" srcset="img/order-wreath-hero-600.webp 600w, img/order-wreath-hero.webp 1200w" sizes="(max-width:640px) 100vw, 640px" width="1200" height="1490" alt="203 Hockey Shop Black Friday Sale. Order by December 25. 30% off everything: sticks, CJR pants, helmets and gloves. Pick up at the 203 Hockey Shop, Chelsea Piers Connecticut." fetchpriority="high"></div>
+<div class="promo"><span class="lbl">Discount code</span><b class="code" data-code>CJRBF30</b><span class="txt"><span data-pct>30%</span> off sticks, CJR pants, helmets and gloves. It is already taken off every price below.</span></div>
+<div class="clockbar"><span class="ribbon">Order by December 25</span><span class="lbl">Orders close in</span>
+  <div id="cells" class="cells"><b id="cdD">00</b><i>days</i><b id="cdH">00</b><i>hrs</i><b id="cdM">00</b><i>min</i><b id="cdS">00</b><i>sec</i></div>
+  <span id="saleOn" class="hidden lbl">Orders are closed</span></div>
+<div class="wrap">
+  <div class="stack" id="grid"></div>
+  <div class="sec-title"><span class="script">Find your stick</span><b>Pick a hand, then filter</b></div>
+  <div class="bigban" id="c-sticks" style="scroll-margin-top:72px">
+  <img class="scene" src="img/scene-sticks.webp" width="1568" height="670" alt="Three CCM sticks on the ice with fir branches, ornaments and candy canes" loading="lazy" decoding="async">
+  <div class="copy"><span class="script">Under the Tree</span><h2>Sticks 30% Off</h2><hr class="rule"><p>Jetspeed, Ribcor, XF Ghost and Tacks in youth, junior, intermediate and senior. Pick a hand, then filter by size, flex and curve.</p></div>
+</div>
+  <div style="height:18px"></div>
+  <div class="finder">
+  <p class="desc" id="stickCount"></p>
+  <div class="filters" id="stickFilters"></div>
+  <div class="stick-list" id="stickList"></div>
+</div>
+  <div style="height:56px"></div>
+  <div class="bigban" id="c-gifts" style="scroll-margin-top:72px">
+  <img class="scene" src="img/scene-gifts.webp" width="1568" height="670" alt="The CJR water bottle with the CT Junior Rangers crest and the CJR travel mug with a player jersey printed on it" loading="lazy" decoding="async">
+  <div class="copy"><span class="script">Stocking Stuffers</span><h2>CJR Bottles &amp; Mugs</h2><hr class="rule"><p>Made by a CJR family. Add your player's jersey on the back with their last name and number.</p></div>
+</div>
+  <div class="gifts" id="gifts"></div>
+</div>
+<section class="howto wrap" aria-label="How ordering works">
+  <div><div class="n">01</div><h4>Pick your gear</h4><p>Choose the size and options for each item and add it to your cart.</p></div>
+  <div><div class="n">02</div><h4>Place your order</h4><p>Tell us who it is for, then pay on the 203 Hockey Shop checkout with code <b data-code></b> added for you. Order by <span data-deadline></span>.</p></div>
+  <div><div class="n">03</div><h4>Hit the ice</h4><p>Pick it up at the 203 Hockey Shop at Chelsea Piers Connecticut.</p></div>
+</section>
+</main>
+<footer class="site">
+  <div class="logos"><img src="img/logo-203-hockey-shop.png" alt="203 Hockey Shop" width="299" height="142"><img src="img/cjr-logo.png" alt="CT Junior Rangers" width="445" height="425"></div>
+  203 Sports Group and CT Junior Rangers Hockey
+</footer>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Your cart" aria-hidden="true">
+  <header><h2 id="drawerTitle">Your Cart</h2><button class="close" id="closeCart" type="button" aria-label="Close">&times;</button></header>
+  <div class="scroll">
+    <ol class="steps" id="steps"><li class="on">Cart</li><li>Your info</li><li>Done</li></ol>
+    <div id="stepCart"><div id="lines"></div></div>
+    <form id="stepInfo" class="hidden" novalidate>
+      <div class="form-grid">
+        <h6>Parent or guardian</h6>
+        <div class="field"><label for="f_first">First name</label><input id="f_first" name="parent_first_name" autocomplete="given-name" required></div>
+        <div class="field"><label for="f_last">Last name</label><input id="f_last" name="parent_last_name" autocomplete="family-name" required></div>
+        <div class="field full"><label for="f_email">Email</label><input id="f_email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field full"><label for="f_phone">Phone</label><input id="f_phone" name="phone" type="tel" autocomplete="tel" required></div>
+        <h6>Player</h6>
+        <div class="field full"><label for="f_player">Player name</label><input id="f_player" name="player_name" required></div>
+        <div class="field full"><label for="f_team">CJR team</label><input id="f_team" name="player_team" placeholder="For example 2013 AA" required></div>
+        <h6>Pickup</h6>
+        <div class="pickup">Pick up your gear at the <b>203 Hockey Shop at Chelsea Piers Connecticut</b>.</div>
+        <div class="field full"><label for="f_pickup">I plan to pick it up by</label><input id="f_pickup" name="pickup_by" type="date" required></div>
+        <div class="field full"><label for="f_notes">Notes (optional)</label><textarea id="f_notes" name="notes" rows="3" placeholder="Anything we should know about sizing"></textarea></div>
+        <label class="check"><input type="checkbox" name="email_updates" value="yes"> Email me about future 203 Hockey Shop and CJR gear sales.</label>
+        <div class="pickup hidden" id="offNote"></div>
+        <p class="err" id="formErr" style="grid-column:1/-1"></p>
+      </div>
+    </form>
+    <div id="stepDone" class="done hidden">
+      <h3>Order received</h3>
+      <div class="num" id="doneNum"></div>
+      <p>Thank you. Your <span data-pct>30%</span> off with code <b data-code></b> is on this order. Nothing has been charged. We will email you to confirm your order and how to pay.</p>
+      <p class="note hidden" id="donePreview">Preview only: this test order was saved in this browser, not sent.</p>
+    </div>
+  </div>
+  <div class="foot" id="foot">
+    <div class="totals"><span>Total</span><span id="total"></span></div>
+    <p class="saved" id="saved"></p>
+    <p class="note" id="footNote"></p>
+    <button class="addbtn" id="nextBtn" type="button">Continue</button>
+    <button class="backlink hidden" id="backBtn" type="button">&lsaquo; Back to cart</button>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/inventory.js"></script>
+<script src="js/products.js"></script>
+<script>window.BANNER = {
+  pants: { scene: "img/scene-pants.webp", script: "CJR Team", head: "Hockey Pants", line: "CCM Tacks C in youth, junior and senior, plus the senior Tacks +C. Red with the CJR crest.", btn: "Shop pants" },
+  helmets: { scene: "img/scene-helmets.webp", script: "Royal Blue", head: "Helmets", line: "CCM Tacks 720, 710 and 920 helmets in CJR royal blue.", btn: "Shop helmets" },
+  gloves: { scene: "img/scene-gloves.webp", script: "CJR Blue", head: "HG95T Gloves", line: "CCM HG95T gloves in CJR blue. Sizes 10 to 15 inches.", btn: "Shop gloves" }
+};
+window.SHOP_THEME = { card: (c, p) => {
+  const b = window.BANNER[c.id];
+  if (!b) return `<article class="gift" id="c-${c.id}" data-id="${c.id}">
+  <div class="pic">${p.img}</div>
+  <div class="txt"><span class="script">${c.tag}</span><h3>${c.name}</h3><p class="desc">${c.description}</p>${p.price}${p.opts}${p.err}${p.add}</div>
+</article>`;
+  return `<article class="bn" id="c-${c.id}" data-id="${c.id}">
+  <div class="top">
+    <img class="scene" src="${b.scene}" width="1568" height="670" alt="${c.name} on the ice with holiday decorations" loading="lazy" decoding="async">
+    <div class="copy"><span class="script">${b.script}</span><h3>${b.head}</h3><hr class="rule"><div class="big"><span>${PCT}%</span> OFF</div><p>${b.line}</p>${p.price}<button class="shop" type="button" onclick="this.closest('.bn').classList.toggle('open')">${b.btn}</button></div>
+  </div>
+  <div class="order">${p.opts}${p.add}${p.err}</div>
+</article>`;
+} };</script>
+<script src="js/shop.js"></script>
+</body>
+</html>
