@@ -9,11 +9,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 364.99,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921578032
  },
  {
   "sku": "stick-left-ccm-jetspeed-ft-team-55-p88",
@@ -25,11 +25,11 @@ const INVENTORY = [
   "flex": "55",
   "curve": "P88",
   "size": "",
-  "regular": 150.0,
+  "regular": 150,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": 40915914883120
+  "variant": 51151921709104
  },
  {
   "sku": "stick-left-ccm-jetspeed-ft-team-65-p88",
@@ -41,11 +41,11 @@ const INVENTORY = [
   "flex": "65",
   "curve": "P88",
   "size": "",
-  "regular": 150.0,
+  "regular": 150,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": 40915914948656
+  "variant": 51151921741872
  },
  {
   "sku": "stick-left-ccm-jetspeed-ft5-55-p29",
@@ -73,11 +73,11 @@ const INVENTORY = [
   "flex": "50",
   "curve": "P29",
   "size": "",
-  "regular": 110.0,
+  "regular": 110,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921807408
  },
  {
   "sku": "stick-left-ccm-jetspeed-ft8-pro-intermediate-55-p28",
@@ -505,11 +505,11 @@ const INVENTORY = [
   "flex": "20",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921938480
  },
  {
   "sku": "stick-left-ccm-jetspeed-fty20-youth-20-p29",
@@ -521,11 +521,11 @@ const INVENTORY = [
   "flex": "20",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921971248
  },
  {
   "sku": "stick-left-ccm-jetspeed-fty30-youth-30-p28",
@@ -537,11 +537,11 @@ const INVENTORY = [
   "flex": "30",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922036784
  },
  {
   "sku": "stick-left-ccm-jetspeed-fty40-youth-40-p28",
@@ -553,11 +553,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 4,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922135088
  },
  {
   "sku": "stick-left-ccm-jetspeed-fty40-youth-40-p29",
@@ -569,11 +569,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 4,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922167856
  },
  {
   "sku": "stick-left-ccm-ribcor-86k-40-p29",
@@ -589,7 +589,7 @@ const INVENTORY = [
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": 40956526264368
+  "variant": 51151923839024
  },
  {
   "sku": "stick-left-ccm-ribcor-trigger-10-junior-40-p28-ext",
@@ -601,11 +601,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P28 +1/4\"",
   "size": "",
-  "regular": null,
+  "regular": 279,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151923904560
  },
  {
   "sku": "stick-left-ccm-ribcor-trigger-10-pro-junior-50-p29-ext",
@@ -969,11 +969,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 364.99,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921610800
  },
  {
   "sku": "stick-right-ccm-jetspeed-40-p29",
@@ -985,11 +985,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 364.99,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921643568
  },
  {
   "sku": "stick-right-ccm-jetspeed-ft-team-55-p88",
@@ -1001,11 +1001,11 @@ const INVENTORY = [
   "flex": "55",
   "curve": "P88",
   "size": "",
-  "regular": 150.0,
+  "regular": 150,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": 40915914653744
+  "variant": 51151921774640
  },
  {
   "sku": "stick-right-ccm-jetspeed-ft5-50-p28",
@@ -1033,11 +1033,11 @@ const INVENTORY = [
   "flex": "50",
   "curve": "P28",
   "size": "",
-  "regular": 110.0,
+  "regular": 110,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": 40915657621552
+  "variant": 51151921840176
  },
  {
   "sku": "stick-right-ccm-jetspeed-ft670-50-p29",
@@ -1049,11 +1049,11 @@ const INVENTORY = [
   "flex": "50",
   "curve": "P29",
   "size": "",
-  "regular": 110.0,
+  "regular": 110,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": 40915657654320
+  "variant": 51151921872944
  },
  {
   "sku": "stick-right-ccm-jetspeed-ft8-pro-intermediate-55-p29",
@@ -1193,11 +1193,11 @@ const INVENTORY = [
   "flex": "20",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 209.99,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151921905712
  },
  {
   "sku": "stick-right-ccm-jetspeed-ft9-pro-intermediate-55-p29",
@@ -1305,11 +1305,11 @@ const INVENTORY = [
   "flex": "20",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 2,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922004016
  },
  {
   "sku": "stick-right-ccm-jetspeed-fty30-youth-30-p28",
@@ -1321,11 +1321,11 @@ const INVENTORY = [
   "flex": "30",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 5,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922069552
  },
  {
   "sku": "stick-right-ccm-jetspeed-fty30-youth-30-p29",
@@ -1337,11 +1337,11 @@ const INVENTORY = [
   "flex": "30",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 4,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922102320
  },
  {
   "sku": "stick-right-ccm-jetspeed-fty40-youth-40-p28",
@@ -1353,11 +1353,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P28",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 4,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922200624
  },
  {
   "sku": "stick-right-ccm-jetspeed-fty40-youth-40-p29",
@@ -1369,11 +1369,11 @@ const INVENTORY = [
   "flex": "40",
   "curve": "P29",
   "size": "",
-  "regular": null,
+  "regular": 219,
   "stock": 5,
   "custom": false,
   "flat": false,
-  "variant": null
+  "variant": 51151922233392
  },
  {
   "sku": "stick-right-ccm-ribcor-86k-50-p29",
@@ -1389,7 +1389,7 @@ const INVENTORY = [
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": 40956526198832
+  "variant": 51151923871792
  },
  {
   "sku": "stick-right-ccm-ribcor-trigger-10-pro-intermediate-55-p28",
@@ -1529,11 +1529,11 @@ const INVENTORY = [
   "flex": "50",
   "curve": "P29",
   "size": "",
-  "regular": 230.0,
+  "regular": 230,
   "stock": 1,
   "custom": false,
   "flat": false,
-  "variant": 41184804372528
+  "variant": 51151923937328
  },
  {
   "sku": "stick-right-ccm-tacks-xf-pro-50-p28",
@@ -2073,11 +2073,11 @@ const INVENTORY = [
   "flex": "",
   "curve": "",
   "size": "",
-  "regular": 27.0,
+  "regular": 27,
   "stock": null,
   "custom": false,
-  "flat": true,
-  "variant": null
+  "flat": false,
+  "variant": 51154011062320
  },
  {
   "sku": "bottle-custom",
@@ -2089,11 +2089,11 @@ const INVENTORY = [
   "flex": "",
   "curve": "",
   "size": "",
-  "regular": 35.0,
+  "regular": 35,
   "stock": null,
   "custom": true,
-  "flat": true,
-  "variant": null
+  "flat": false,
+  "variant": 51154011095088
  },
  {
   "sku": "mug-logo",
@@ -2105,11 +2105,11 @@ const INVENTORY = [
   "flex": "",
   "curve": "",
   "size": "",
-  "regular": 25.0,
+  "regular": 25,
   "stock": null,
   "custom": false,
-  "flat": true,
-  "variant": null
+  "flat": false,
+  "variant": 51154010996784
  },
  {
   "sku": "mug-custom",
@@ -2121,10 +2121,42 @@ const INVENTORY = [
   "flex": "",
   "curve": "",
   "size": "",
+  "regular": 33,
+  "stock": null,
+  "custom": true,
+  "flat": false,
+  "variant": 51154011029552
+ },
+ {
+  "sku": "coffee-logo",
+  "group": "coffee",
+  "name": "CJR Coffee Mug",
+  "details": "CJR Hockey on the front",
+  "hand": "",
+  "level": "Team logo only",
+  "flex": "",
+  "curve": "",
+  "size": "",
+  "regular": 25.0,
+  "stock": null,
+  "custom": false,
+  "flat": false,
+  "variant": null
+ },
+ {
+  "sku": "coffee-custom",
+  "group": "coffee",
+  "name": "CJR Coffee Mug",
+  "details": "CJR Hockey on the front, player jersey on the back",
+  "hand": "",
+  "level": "Team logo + player name and number on the back",
+  "flex": "",
+  "curve": "",
+  "size": "",
   "regular": 33.0,
   "stock": null,
   "custom": true,
-  "flat": true,
+  "flat": false,
   "variant": null
  }
 ];

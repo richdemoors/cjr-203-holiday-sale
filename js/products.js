@@ -58,6 +58,16 @@ const CARDS = [
     picker: [["level", "Design"]]
   },
   {
+    id: "coffee",
+    name: "CJR Coffee Mug",
+    short: ["CJR", "Coffee", "Mug"],
+    tag: "Made by a CJR family",
+    image: "img/cjr-coffee-mug.webp",
+    flat: true,
+    description: "White ceramic coffee mug with CJR Hockey on the front. Add your player's jersey on the back with their last name and number.",
+    picker: [["level", "Design"]]
+  },
+  {
     id: "sticks",
     name: "CCM Sticks",
     short: ["CCM", "Hockey", "Sticks"],

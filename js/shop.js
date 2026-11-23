@@ -392,7 +392,8 @@ function shopifyUrl(p) {
   q.set("attributes[CJR team]", p.team);
   q.set("attributes[Pick up by]", p.pickupBy);
   const extra = offlineLines().map(lineText);
-  const note = [p.notes, extra.length ? `Also ordered, not in the online checkout: ${extra.join("; ")}` : ""].filter(Boolean).join(" | ");
+  const personalized = onlineLines().filter((l) => l.props).map(lineText);
+  const note = [p.notes, personalized.length ? `Personalization details: ${personalized.join("; ")}` : "", extra.length ? `Also ordered, not in the online checkout: ${extra.join("; ")}` : ""].filter(Boolean).join(" | ");
   if (note) q.set("note", note);
   return `${SHOP_CHECKOUT}/cart/${items}?${q.toString()}`;
 }
@@ -426,6 +427,10 @@ async function placeOrder() {
     discountCode: PROMO_CODE,
     items: cart.map((l) => (l.props ? { sku: l.sku, qty: l.qty, props: l.props } : { sku: l.sku, qty: l.qty }))
   };
+  if (!ORDER_URL && !onlineLines().length) {
+    $("formErr").textContent = "These items can't be paid for online yet. Please contact the 203 Hockey Shop to order them.";
+    return;
+  }
   if (onlineLines().length) {
     $("nextBtn").disabled = true;
     $("nextBtn").textContent = "Opening checkout...";
