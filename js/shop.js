@@ -427,10 +427,6 @@ async function placeOrder() {
     discountCode: PROMO_CODE,
     items: cart.map((l) => (l.props ? { sku: l.sku, qty: l.qty, props: l.props } : { sku: l.sku, qty: l.qty }))
   };
-  if (!ORDER_URL && !onlineLines().length) {
-    $("formErr").textContent = "These items can't be paid for online yet. Please contact the 203 Hockey Shop to order them.";
-    return;
-  }
   if (onlineLines().length) {
     $("nextBtn").disabled = true;
     $("nextBtn").textContent = "Opening checkout...";
